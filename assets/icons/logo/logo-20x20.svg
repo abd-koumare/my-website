@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="20mm"
+   height="19mm"
+   viewBox="0 0 20 19"
    version="1.1"
    id="svg8"
-   sodipodi:docname="logo-new-small.svg"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo-20x20.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="217.16922"
-     inkscape:cy="542.44417"
+     inkscape:zoom="5.6"
+     inkscape:cx="23.363565"
+     inkscape:cy="16.004415"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,11 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,7 +55,8 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-70.242736,-102.83185)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -64,21 +69,21 @@
          y="122.20312"
          style="stroke-width:0.26458332" /></text>
     <g
-       id="g4554"
-       transform="matrix(0.16207073,0,0,0.1560814,34.317545,137.07438)">
+       id="g843"
+       transform="matrix(0.23734681,0,0,0.23116978,59.985215,84.624524)">
       <rect
-         y="78.572723"
-         x="43.02845"
+         y="78.761711"
+         x="43.217438"
          height="82.190674"
          width="84.264877"
          id="rect4522"
          style="fill:#ffce00;fill-opacity:0.99489794;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294" />
       <g
-         transform="translate(-3.1797748,5.3235268)"
-         id="g4546">
+         transform="translate(0.18898817,0.18899008)"
+         id="g835">
         <rect
-           y="87.382935"
-           x="61.190083"
+           y="92.706459"
+           x="58.010307"
            height="59.602566"
            width="59.60257"
            id="rect4520"
@@ -88,18 +93,18 @@
            id="rect3713"
            width="59.60257"
            height="59.602566"
-           x="56.087391"
-           y="81.902283" />
+           x="52.907616"
+           y="87.225807" />
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="84.950752"
-           y="124.5145"
+           x="81.770981"
+           y="129.83803"
            id="text4534"><tspan
              sodipodi:role="line"
              id="tspan4532"
-             x="84.950752"
-             y="124.5145"
+             x="81.770981"
+             y="129.83803"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332">KA</tspan></text>
       </g>
     </g>

@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="82.786021"
-     inkscape:cy="7.0083095"
+     inkscape:zoom="1.4"
+     inkscape:cx="-22.178089"
+     inkscape:cy="-109.29254"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g843"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,41 +73,51 @@
        transform="matrix(0.37975489,0,0,0.37717174,53.830703,61.125161)"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
-      <rect
-         y="78.761711"
-         x="43.217438"
-         height="82.190674"
-         width="84.264877"
-         id="rect4522"
-         style="fill:#ffce00;fill-opacity:0.99489794;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294" />
+      <ellipse
+         style="fill:#ffce00;fill-opacity:0.99607843;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294"
+         id="path38"
+         cx="3.8929183"
+         cy="218.08447"
+         rx="51.470924"
+         ry="50.133545" />
       <g
-         transform="translate(0.18898817,0.18899008)"
-         id="g835">
-        <rect
-           y="92.706459"
-           x="58.010307"
-           height="59.602566"
-           width="59.60257"
-           id="rect4520"
-           style="fill:#333333;fill-opacity:0.5408163;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294" />
-        <rect
-           style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:0.39743319;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294"
-           id="rect3713"
-           width="59.60257"
-           height="59.602566"
-           x="52.907616"
-           y="87.225807" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-           x="81.770981"
-           y="129.83803"
-           id="text4534"><tspan
-             sodipodi:role="line"
-             id="tspan4532"
-             x="81.770981"
-             y="129.83803"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332">KA</tspan></text>
+         id="g3768">
+        <ellipse
+           ry="92.908424"
+           rx="92.276443"
+           cy="284.55783"
+           cx="194.90755"
+           id="path3754"
+           style="fill:#ffce00;fill-opacity:0.99607843;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294" />
+        <g
+           transform="translate(31.504382,13.52056)"
+           id="g3760">
+          <rect
+             style="fill:#333333;fill-opacity:0.5408163;stroke:#1a1a1a;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294"
+             id="rect4520"
+             width="95.665131"
+             height="81.148422"
+             x="119.75587"
+             y="240.50774" />
+          <rect
+             y="220.73006"
+             x="111.69701"
+             height="91.74234"
+             width="95.255966"
+             id="rect3713"
+             style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:0.6233474;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.88235294" />
+          <text
+             id="text4534"
+             y="279.41217"
+             x="158.38707"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.56945038px;line-height:0.25;font-family:'Sitka Heading';-inkscape-font-specification:'Sitka Heading';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+               y="279.41217"
+               x="158.38707"
+               id="tspan4532"
+               sodipodi:role="line">KA</tspan></text>
+        </g>
       </g>
     </g>
   </g>

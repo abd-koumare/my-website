@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M94.2388098,181 L94.2388098,173.943 L99.6578098,177.814 C99.8318098,177.938 100.03481,178 100.23881,178 C100.44281,178 100.64581,177.938 100.81981,177.814 L106.23881,173.943 L106.23881,181 L94.2388098,181 Z M104.11781,173 L100.23881,175.771 L96.3598098,173 L104.11781,173 Z M107.23881,171 L93.2388098,171 C92.6858098,171 92.2388098,171.448 92.2388098,172 L92.2388098,182 C92.2388098,182.552 92.6858098,183 93.2388098,183 L107.23881,183 C107.79181,183 108.23881,182.552 108.23881,182 L108.23881,172 C108.23881,171.448 107.79181,171 107.23881,171 L107.23881,171 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-92.000000, -171.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Icon-Copy" fill="#2A81A5" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

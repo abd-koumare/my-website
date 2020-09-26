@@ -1,0 +1,328 @@
+
+body {
+    background-color: #F2FAFC;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    color: #2A81A5;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* */
+
+
+.header {
+    width: 70%;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    font-size: 16px;
+    font-weight:bold;
+    text-decoration: none;
+    color: #2A81A5;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #2A81A5;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #2A81A5;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+.menu-link-icon {
+    margin-right: 5px;
+    transform: translateY(2px);
+}
+
+.navbar-brand-img {
+    width: 40px;
+    height: 48px;
+    position: relative;
+    top: -5px;
+}
+.contact-link:hover .hand-icon  {
+    animation: handshake 800ms ease-in-out alternate-reverse infinite;
+}
+
+
+@keyframes handshake {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+    }
+    100% {
+        transform: rotate(25deg) translateY(-8px);
+    }
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        text-align: center;
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+/* hero */
+
+.hero {
+    width: 70%;
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hero .left-side, .hero .right-side {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+}
+.hero .left-side {
+    font-size: 2.5em;
+}
+
+.hero .left-side div{
+    margin: 0.5em 0;
+    line-height: 1.5em;
+}
+
+.hero .right-side img {
+    width: 500px;
+    height: 450px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 48em) {
+    .hero {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero .left-side {
+        font-size: 1.8em;
+
+    }
+    .hero .left-side, .hero .right-side {
+        margin-top: 30px;
+    }
+    .hero .right-side {
+        margin-top: 20px;
+    }
+    .hero .right-side img {
+        margin-top: 0;
+
+    }
+}
+.separator {
+    width: 20%;
+    height: 8px;
+    border-radius: 20px;
+    background-color: #ecc112;
+}
+
+/* end hero */
+
+/* skill */
+.skill {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+    border: 1px solid #ecc112;
+    border-radius: 20px;
+    padding: 50px 20px;
+    margin: 20px 15px;
+}
+.skill .board .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: 1px solid #2A81A5;
+    padding: 0.4em 0.2em;
+    border-radius: 20px;
+}
+.skill .board img {
+    width: 300px;
+    height: 300px;
+}
+/* end skill */
+
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 100px 20px;
+}
+
+.section-title .underline {
+    background-color: #ecc112;
+    width: 70px;
+    height: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+/* works */
+
+.work {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+/* end works */
+.footer {
+    margin-top: 40px;
+    clear: both;
+}
+
+.mail-label-title {
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mail-label {
+    border: 1px solid #2A81A5;
+    border-radius: 25px;
+    padding: 15px;
+    width: 230px;
+    text-align: center;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.mail-label span {
+    margin-left: 5px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts a {
+    margin: 0 5px;
+}
+
+
+
